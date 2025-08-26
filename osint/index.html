@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Milionerzy - Cyberbezpieczeństwo i OSINT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="start">
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/d5c3022c-e630-47ff-b146-db2144705487.png" alt="Cyberbezpieczeństwo - tarcza i kłódka" />
+  <h1>Podaj imię, by zacząć</h1>
+  <input type="text" id="username" placeholder="Twoje imię..." />
+  <button id="start-btn" disabled>Start</button>
+</div>
+
+<div id="game">
+  <h1>Milionerzy</h1>
+  <div id="progressBarContainer"><div id="progressBar"></div></div>
+  <div id="progressTxt"></div>
+  <div id="qText"></div>
+  <div class="answers">
+    <button class="ans" id="a0"></button>
+    <button class="ans" id="a1"></button>
+    <button class="ans" id="a2"></button>
+    <button class="ans" id="a3"></button>
+  </div>
+  <div id="safe">
+    <span id="s3" class="safeLvl">Próg po 3 pytaniu</span>
+    <span id="s6" class="safeLvl">Próg po 6 pytaniu</span>
+  </div>
+  <div id="result"></div>
+  <button id="restart">Zagraj ponownie</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
