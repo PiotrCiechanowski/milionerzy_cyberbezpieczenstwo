@@ -14,7 +14,6 @@ const quizData = [
   {q:"Czym jest 2FA?", a:["Dwukrotny firewall","Protokół VPN","Dwuskładnikowe uwierzytelnianie","System szyfrowania plików"], c:2},
   {q:"Jakie rozszerzenie ma często plik złośliwego oprogramowania?", a:[".jpg",".exe",".mp3",".txt"], c:1},
   {q:"Czym jest ransomware?", a:["Atak DDoS","Oprogramowanie szyfrujące pliki i żądające okupu","Firewall","Narzędzie OSINT"], c:1},
-  {q:"Jak nazywa się atak polegający na zgadywaniu haseł?", a:["Phishing","Brute force","Sniffing","Spoofing"], c:1},
   {q:"Który port jest używany przez HTTPS?", a:["80","443","25","21"], c:1},
   {q:"Co oznacza SSL?", a:["System Secure Login","Secure Sockets Layer","Secure Software License","Safe Socket Layer"], c:1},
   {q:"Co oznacza skrót VPN?", a:["Virtual Public Node","Virtual Private Network","Variable Protocol Network","Verified Personal Network"], c:1},
